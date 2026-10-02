@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Salidas de procesamiento generadas
+partidas_db/*.docx
+!partidas_db/.gitkeep
+Expediente_Consolidado.docx
+Expediente_Final*.docx
+test_*.docx
+
+# Archivos temporales de Microsoft Office
+~$*.docx
+~$*.xlsx
+
+# Entornos virtuales e IDE
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+.DS_Store
